@@ -25,9 +25,9 @@
     <meta name="twitter:site" content="@Ilyas_tweets">
     <meta name="twitter:creator" content="@Ilyas_tweets">
     <meta property="article:author" content="https://www.facebook.com/IlyasTheWebizen">
-    <meta name="twitter:description" content="A detailed public cloud services comparison & mapping of Amazon AWS, Microsoft Azure, Google Cloud, IBM Cloud, Oracle Cloud.">
-    <meta name="twitter:title" content="A public Cloud Compareison : AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba">
-    <title>AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba | A detailed comparison and mapping between various cloud services</title>
+    <meta name="twitter:description" content="A detailed public cloud services comparison & mapping of Amazon AWS, Microsoft Azure, Google Cloud, IBM Cloud, Oracle Cloud, HUAWEI.">
+    <meta name="twitter:title" content="A public Cloud Compareison : AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba vs HUAWEI">
+    <title>AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba vs HUAWEI | A detailed comparison and mapping between various cloud services</title>
 
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/stylish-portfolio.css" rel="stylesheet">
@@ -84,6 +84,9 @@
             </th>
             <th>
               <img class="img-responsive" src="img/logo/alibaba.png" alt="Alibaba Cloud Logo"/>
+            </th>
+            <th>
+              <img class="img-responsive" src="img/logo/huawei.png" alt="HUAWEI Cloud Logo"/>
             </th>
           </tr>
         </thead>
@@ -184,6 +187,21 @@
                         <li>
                             {{#if name}}
                             <img src="img/cloudproviders/alibaba/{{icon}}" alt="{{name}}" onerror="this.remove()" class=" hidden-sm hidden-xs img-responsive img-icons" />{{name}}
+                            {{/if}}
+                            {{#if ref}}
+                                <a href="{{ref}}" class="glyphicon glyphicon-link srvc-hyperlink hidden-print" target="_blank"></a>
+                            {{/if}}
+                        </li>                           
+                        {{/each}}
+                    </ul>
+                </td>
+		
+                <td>
+                    <ul>
+                        {{#each huawei}}
+                        <li>
+                            {{#if name}}
+                            <img src="img/cloudproviders/huawei/{{icon}}" alt="{{name}}" onerror="this.remove()" class=" hidden-sm hidden-xs img-responsive img-icons" />{{name}}
                             {{/if}}
                             {{#if ref}}
                                 <a href="{{ref}}" class="glyphicon glyphicon-link srvc-hyperlink hidden-print" target="_blank"></a>
