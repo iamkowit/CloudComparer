@@ -136,6 +136,13 @@
                 "ref": "https://www.alibabacloud.com/product/ecs",
                 "icon": "ecs.png"
             }
+        ],
+        "huawei": [
+            {
+                "name": "Elastic Cloud Server",
+                "ref": "https://www.huaweicloud.com/intl/en-us/product/ecs.html",
+                "icon": "ecs.png"
+            }
         ]
     },
     {
